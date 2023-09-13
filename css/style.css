@@ -359,3 +359,49 @@ section {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.fittree {
+  background-color: #FFF5E9;
+  color: #1E3F00;
+}
+.fittree h1 {
+  font-family: "rinse", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1E3F00;
+}
+.fittree h3 {
+  font-family: feltro-texture-2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+.fittree .section-heading {
+  border-bottom: 5px solid #1E3F00;
+}
+.fittree .site-header, .fittree .site-footer {
+  background-color: #465705;
+}
+.fittree .hero {
+  background-color: #D0D5A8;
+}
+.fittree .button {
+  padding: 1em;
+  width: 250px;
+  text-align: center;
+  background-color: #75982C;
+  color: #E8D3BC;
+  text-transform: none;
+  margin: 1em;
+  border-radius: 25px 0;
+}
+.fittree .button:hover {
+  background-color: #1E3F00;
+}
+.fittree ul {
+  list-style: none;
+}
+.fittree ul span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
