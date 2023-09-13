@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mari's Portfolio</title>
+    <meta name="description" content="Mari's portfolio" />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/muz4avn.css">
+
+    <!-- MAIN CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <h1><a href="#">MS</a></h1>
+        </div>
+
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#typography">work</a></li>
+                <li><a href="#layout">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="hero">
+            <div class="container">
+                <h1>Mari Sumida-Miyashiro</h1>
+                <p>Hello! I am currently studying Interface Design within KCC's New Media Arts program. I have always had a love for art and enjoy exploring new creative outlets. I hope to continue my creative journey by pushing the boundaries of visual design while working alongside fellow&nbspcreatives.</p>
+                <a href="#project" class="button">go to my projects</a>
+            </div>
+        </section>
+        <section id="project">
+
+            <div class="container">
+
+                <h2 class="section-heading">my projects</h2>
+
+                <div class="row">
+                    <div class="projects one-third"><img src="../img/FitTree-MobileAppLayout.jpg">
+                    <a href="#">FitTree Mobile App</a></div>
+                    <div class="projects one-third"><img src="../img/Trilogy_MockUp_Reedit.jpg">
+                    <a href="#">Book Trilogy</a></div>
+                    <div class="projects one-third"><img src="../img/TheMoonWebsite.png">
+                    <a href="">The Moon Website</a></div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#typography">typography</a></li>
+                <li><a href="#layout">layout</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+</body>
+
+</html>
