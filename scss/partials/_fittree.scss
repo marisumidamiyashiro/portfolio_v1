@@ -1,0 +1,54 @@
+.fittree {
+
+    background-color: #FFF5E9;
+    color: #1E3F00;
+    
+    h1{
+    font-family: "rinse", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E3F00;
+    }
+
+    h3 {
+        font-family: feltro-texture-2, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: none;
+    }
+
+    .section-heading {
+        border-bottom: 5px solid #1E3F00;
+    }
+
+    .site-header, .site-footer {
+        background-color: #465705;
+    }
+
+    .hero {
+
+        background-color: #D0D5A8;
+
+    }
+    .button {
+        padding: 1em;
+        width: 250px;
+        text-align: center;
+        background-color: #75982C;
+        color: #E8D3BC;
+        text-transform: none;
+        margin: 1em;
+        border-radius: 25px 0;
+        &:hover {
+            background-color: #1E3F00;
+        }
+    }
+
+    ul {
+        list-style: none;
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
