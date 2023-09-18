@@ -153,13 +153,13 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -1%;
-  margin-right: -1%;
+  margin-left: -2.5%;
+  margin-right: -2.5%;
   align-items: center;
   margin-bottom: 3em;
 }
 .row > * {
-  margin: 1%;
+  margin: 2.5%;
   flex-grow: 1;
 }
 .row.centered {
@@ -179,31 +179,31 @@ body {
     flex-grow: 0;
   }
   .row .one-whole {
-    width: 98%;
+    width: 95%;
   }
   .row .one-half {
-    width: 48%;
+    width: 45%;
   }
   .row .one-third {
-    width: 31.333%;
+    width: 28.333%;
   }
   .row .two-thirds {
-    width: 64.666%;
+    width: 61.666%;
   }
   .row .one-fourth {
-    width: 23%;
+    width: 20%;
   }
   .row .three-fourths {
-    width: 73%;
+    width: 70%;
   }
   .row .push-one-fourth {
-    margin-left: 26%;
+    margin-left: 27.5%;
   }
   .row .push-one-third {
-    margin-left: 34.333%;
+    margin-left: 35.833%;
   }
   .row .push-one-half {
-    margin-left: 51%;
+    margin-left: 52.5%;
   }
   .row .centered {
     margin-left: auto;
@@ -400,48 +400,62 @@ section {
   background-color: #E8D3BC;
 }
 
-.fittree {
-  background-color: #FFF5E9;
-  color: #1E3F00;
+.booktrilogy {
+  background-color: #b4b4b4;
+  color: #45000E;
 }
-.fittree h1 {
-  font-family: "rinse", sans-serif;
+.booktrilogy img {
+  border-radius: 75px;
+}
+.booktrilogy h1 {
+  font-family: "shrunken-head-bb", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #1E3F00;
+  color: #260008;
 }
-.fittree h3 {
-  font-family: feltro-texture-2, sans-serif;
+.booktrilogy h2 {
+  color: #260008;
+}
+.booktrilogy h3 {
+  font-family: "shrunken-head-bb", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
+  color: #260008;
 }
-.fittree .section-heading {
-  border-bottom: 5px solid #1E3F00;
+.booktrilogy .section-heading {
+  border-bottom: 5px solid #260008;
 }
-.fittree .site-header, .fittree .site-footer {
-  background-color: #465705;
+.booktrilogy .site-header, .booktrilogy .site-footer {
+  background-color: #45000E;
 }
-.fittree .hero {
-  background-color: #D0D5A8;
+.booktrilogy .hero {
+  background-color: #747474;
 }
-.fittree .button {
+.booktrilogy .button {
   padding: 1em;
   width: 250px;
   text-align: center;
-  background-color: #75982C;
-  color: #E8D3BC;
+  background-color: #45000E;
+  color: #b4b4b4;
   text-transform: none;
   margin: 1em;
   border-radius: 25px 0;
 }
-.fittree .button:hover {
-  background-color: #1E3F00;
+.booktrilogy .button:hover {
+  background-color: #260008;
 }
-.fittree ul {
+.booktrilogy ul {
   list-style: none;
 }
-.fittree ul span {
+.booktrilogy ul span {
   text-transform: uppercase;
   font-weight: bold;
+}
+.booktrilogy .book-covers {
+  display: flex;
+}
+.booktrilogy .book-covers img {
+  margin: 0.5em;
+  width: 25%;
 }

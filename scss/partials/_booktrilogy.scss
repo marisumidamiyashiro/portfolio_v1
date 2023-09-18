@@ -1,46 +1,55 @@
-.fittree {
+.booktrilogy {
 
-    background-color: #FFF5E9;
-    color: #1E3F00;
+    background-color: #b4b4b4;
+    color: #45000E;
+
+    img {
+        border-radius: 75px;
+    }
     
     h1{
-    font-family: "rinse", sans-serif;
+    font-family: "shrunken-head-bb", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #1E3F00;
+    color: #260008;
+    }
+
+    h2 {
+        color: #260008;
     }
 
     h3 {
-        font-family: feltro-texture-2, sans-serif;
+        font-family: "shrunken-head-bb", sans-serif;
         font-weight: 400;
         font-style: normal;
         text-transform: none;
+        color: #260008;
     }
 
     .section-heading {
-        border-bottom: 5px solid #1E3F00;
+        border-bottom: 5px solid #260008;
     }
 
     .site-header, .site-footer {
-        background-color: #465705;
+        background-color: #45000E;
     }
 
     .hero {
 
-        background-color: #D0D5A8;
+        background-color: #747474;
 
     }
     .button {
         padding: 1em;
         width: 250px;
         text-align: center;
-        background-color: #75982C;
-        color: #E8D3BC;
+        background-color: #45000E;
+        color: #b4b4b4;
         text-transform: none;
         margin: 1em;
         border-radius: 25px 0;
         &:hover {
-            background-color: #1E3F00;
+            background-color: #260008;
         }
     }
 
@@ -49,6 +58,15 @@
         span {
             text-transform: uppercase;
             font-weight: bold;
+        }
+    }
+    
+    .book-covers {
+        display: flex;
+
+        img {
+            margin: .5em;
+            width: 25%;
         }
     }
 }
