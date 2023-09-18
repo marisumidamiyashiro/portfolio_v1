@@ -72,6 +72,7 @@ h3 {
 /* LIMIT NUMBER OF CHARACTERS PER LINE */
 p {
   max-width: 40em;
+  font-size: 0.8em;
 }
 
 /* HORIZONTAL LINE */
@@ -97,15 +98,6 @@ hr {
   line-height: 1.1;
   margin: 0.25em 0;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.projects a {
-  text-decoration: none;
-  color: rgb(194, 109, 129);
-  padding: 1em;
-}
-.projects a:hover {
-  animation: blur 0.5s cubic-bezier(0.25, 0.25, 0.25, 0.5) both;
 }
 
 /* BUTTONS */
@@ -303,6 +295,21 @@ section {
   height: 300px;
   object-fit: cover;
 }
+.projects p {
+  position: absolute;
+  margin: 3em;
+  opacity: 0;
+}
+.projects:hover img {
+  animation: blur 0.1s cubic-bezier(0.25, 0.25, 0.25, 0.5) both;
+  opacity: 0.5;
+}
+.projects:hover p {
+  color: rgb(194, 109, 129);
+  opacity: 1;
+  font-weight: bold;
+  font-size: 1.1em;
+}
 
 @keyframes blur {
   0% {
@@ -318,6 +325,9 @@ section {
   background-color: #FFF5E9;
   color: #1E3F00;
 }
+.fittree img {
+  border-radius: 75px;
+}
 .fittree h1 {
   font-family: "rinse", sans-serif;
   font-weight: 400;
@@ -325,7 +335,7 @@ section {
   color: #1E3F00;
 }
 .fittree h3 {
-  font-family: feltro-texture-2, sans-serif;
+  font-family: "feltro-texture-2", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: none;
@@ -339,14 +349,17 @@ section {
 .fittree .hero {
   background-color: #D0D5A8;
 }
+.fittree .hero .one-fourth {
+  text-align: left;
+}
 .fittree .button {
-  padding: 1em;
-  width: 250px;
+  padding: 0.5em;
+  max-width: 200px;
   text-align: center;
   background-color: #75982C;
   color: #E8D3BC;
   text-transform: none;
-  margin: 1em;
+  margin: 0.5em;
   border-radius: 25px 0;
 }
 .fittree .button:hover {
@@ -354,10 +367,37 @@ section {
 }
 .fittree ul {
   list-style: none;
+  font-size: 0.8em;
 }
 .fittree ul span {
   text-transform: uppercase;
   font-weight: bold;
+}
+.fittree .process img {
+  margin-bottom: 3em;
+}
+.fittree .process .squares {
+  display: flex;
+}
+.fittree .process .square {
+  margin: 0.5em 0.1em 0 0.1em;
+  height: 50px;
+  width: 50px;
+}
+.fittree .process .square:nth-child(1) {
+  background-color: #1A2207;
+}
+.fittree .process .square:nth-child(2) {
+  background-color: #1E3F00;
+}
+.fittree .process .square:nth-child(3) {
+  background-color: #465705;
+}
+.fittree .process .square:nth-child(4) {
+  background-color: #75982C;
+}
+.fittree .process .square:nth-child(5) {
+  background-color: #E8D3BC;
 }
 
 .fittree {

@@ -90,8 +90,29 @@ section {
     text-align: center;
 
     img {
-    border-radius: 25px;
-    height: 300px;
-    object-fit: cover;
+        border-radius: 25px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    p {
+        position: absolute;
+        margin: 3em;
+        opacity: 0;
+    }
+
+    &:hover {
+
+        img {
+        animation: blur .1s cubic-bezier(.25,.25,.25,.5) both;
+        opacity: .5;
+        }
+
+        p {
+            color: $color-accent;
+            opacity: 1;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
     }
 }

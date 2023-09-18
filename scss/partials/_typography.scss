@@ -50,6 +50,7 @@ h3 {
 
 p {
     max-width: 40em;
+    font-size: .8em;
 }
 
 /* HORIZONTAL LINE */
@@ -77,17 +78,4 @@ hr {
     line-height: 1.1;
     margin: .25em 0;
     color: $color-lightgrey;
-}
-
-.projects {
-    
-    a {
-        text-decoration: none;
-        color: $color-accent;
-        padding: 1em;
-
-        &:hover {
-            animation: blur .5s cubic-bezier(.25,.25,.25,.5) both;
-        }
-    }
 }
