@@ -1,0 +1,72 @@
+.the-moon {
+
+    background-color: #0b0029;
+    color: #ffffff;
+
+    img {
+        border-radius: 75px;
+    }
+    
+    h1 {
+    font-family: "tachyon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
+    h3 {
+        font-family: "tachyon", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: none;
+        color: #ffffff;
+    }
+
+    .section-heading {
+        border-bottom: 5px solid #380079;
+    }
+
+    .site-header, .site-footer {
+        background-color: #2f0064;
+    }
+
+    .hero {
+
+        background-color: #000000;
+
+    }
+    .button {
+        padding: 1em;
+        width: 200px;
+        text-align: center;
+        background-color: #380079;
+        color: #b4b4b4;
+        text-transform: none;
+        margin: 1em;
+        border-radius: 25px 0;
+        &:hover {
+            background-color: #2f0064;
+        }
+    }
+
+    ul {
+        list-style: none;
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    
+    .book-covers {
+        display: flex;
+
+        img {
+            margin: .5em;
+            width: 25%;
+        }
+    }
+}

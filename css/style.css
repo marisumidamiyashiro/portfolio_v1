@@ -437,3 +437,63 @@ section {
   margin: 0.5em;
   width: 25%;
 }
+
+.the-moon {
+  background-color: #0b0029;
+  color: #ffffff;
+}
+.the-moon img {
+  border-radius: 75px;
+}
+.the-moon h1 {
+  font-family: "tachyon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.the-moon h2 {
+  color: #ffffff;
+}
+.the-moon h3 {
+  font-family: "tachyon", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  color: #ffffff;
+}
+.the-moon .section-heading {
+  border-bottom: 5px solid #380079;
+}
+.the-moon .site-header, .the-moon .site-footer {
+  background-color: #2f0064;
+}
+.the-moon .hero {
+  background-color: #000000;
+}
+.the-moon .button {
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+  background-color: #380079;
+  color: #b4b4b4;
+  text-transform: none;
+  margin: 1em;
+  border-radius: 25px 0;
+}
+.the-moon .button:hover {
+  background-color: #2f0064;
+}
+.the-moon ul {
+  list-style: none;
+}
+.the-moon ul span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.the-moon .book-covers {
+  display: flex;
+}
+.the-moon .book-covers img {
+  margin: 0.5em;
+  width: 25%;
+}
