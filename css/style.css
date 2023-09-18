@@ -84,9 +84,14 @@ hr {
   background-color: rgb(194, 109, 129);
   color: rgb(64, 27, 36);
   text-decoration: none;
-  padding: 1em;
-  border-radius: 5px;
+  font-size: 0.7em;
   text-transform: uppercase;
+  padding: 1em;
+  border-radius: 25px 0;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  margin: 0.5em;
 }
 .button:hover {
   background-color: rgb(64, 27, 36);
@@ -157,7 +162,7 @@ body {
     flex-grow: 0;
   }
   .row .one-whole {
-    width: 95%;
+    width: 100%;
   }
   .row .one-half {
     width: 45%;
@@ -237,16 +242,18 @@ section {
 
 /* HERO SECTION */
 .hero {
+  display: flex;
   background-color: rgb(223, 205, 197);
-  text-align: center;
+  text-align: left;
   padding: 10em 0;
   height: 75vh;
 }
 .hero h1 {
   margin-bottom: 0.25em;
 }
-.hero p {
-  margin: 1em auto;
+.hero .project-nav {
+  display: flex;
+  justify-content: left;
 }
 
 /* SECTION HEADING */
@@ -331,14 +338,8 @@ section {
   text-align: left;
 }
 .fittree .button {
-  padding: 0.5em;
-  width: 200px;
-  text-align: center;
   background-color: #75982C;
   color: #E8D3BC;
-  text-transform: none;
-  margin: 0.5em;
-  border-radius: 25px 0;
 }
 .fittree .button:hover {
   background-color: #1E3F00;

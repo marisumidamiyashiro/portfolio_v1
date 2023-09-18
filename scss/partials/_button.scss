@@ -5,9 +5,14 @@
     background-color: $color-accent;
     color: $color-accent-dark;
     text-decoration: none;
-    padding: 1em;
-    border-radius: 5px;
+    font-size: .7em;
     text-transform: uppercase;
+    padding: 1em;
+    border-radius: 25px 0;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+    margin: .5em;
 
     &:hover {
         background-color: $color-accent-dark;

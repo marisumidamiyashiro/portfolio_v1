@@ -56,18 +56,22 @@ section {
 /* HERO SECTION */
 
 .hero {
+    display: flex;
     background-color: $color-accent-light; 
-    text-align: center;
+    text-align: left;
     padding: 10em 0;
     height: 75vh;
-
+    
     h1 {
         margin-bottom: .25em;
     }
-    p {
-        margin: 1em auto;
+
+    .project-nav {
+        display: flex;
+        justify-content: left;
     }
 }
+
 
 /* SECTION HEADING */ 
 
