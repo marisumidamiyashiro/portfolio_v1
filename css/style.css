@@ -440,8 +440,8 @@ section {
 }
 
 .the-moon {
-  background-color: #0b0029;
-  color: #ffffff;
+  background-color: #130025;
+  color: rgb(226, 226, 226);
 }
 .the-moon img {
   border-radius: 75px;
@@ -450,26 +450,35 @@ section {
   font-family: "tachyon", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  color: rgba(255, 234, 194, 0.8);
 }
 .the-moon h2 {
-  color: #ffffff;
+  color: rgb(179, 179, 179);
 }
 .the-moon h3 {
   font-family: "tachyon", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-transform: none;
-  color: #ffffff;
+  text-transform: uppercase;
+  color: rgba(255, 234, 194, 0.8);
 }
 .the-moon .section-heading {
-  border-bottom: 5px solid #380079;
+  border-bottom: 5px solid rgba(255, 234, 194, 0.8);
 }
 .the-moon .site-header, .the-moon .site-footer {
   background-color: #2f0064;
 }
 .the-moon .hero {
+  display: flex;
+  flex-direction: column;
   background-color: #000000;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.the-moon video {
+  object-fit: cover;
+  max-width: 50vw;
 }
 .the-moon .button {
   padding: 1em;
@@ -477,7 +486,7 @@ section {
   text-align: center;
   background-color: #380079;
   color: #b4b4b4;
-  text-transform: none;
+  text-transform: uppercase;
   margin: 1em;
   border-radius: 25px 0;
 }
@@ -491,10 +500,15 @@ section {
   text-transform: uppercase;
   font-weight: bold;
 }
-.the-moon .book-covers {
+.the-moon .one-whole {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.the-moon .book-covers img {
-  margin: 0.5em;
-  width: 25%;
+.the-moon .solution {
+  display: flex;
+  flex-direction: column;
+}
+.the-moon hr {
+  background-color: white;
 }
