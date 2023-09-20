@@ -2,8 +2,8 @@
 
 .button {
     display: inline-block;
-    background-color: $color-accent;
-    color: $color-accent-dark;
+    background-color: $color-accent-dark;
+    color: $color-accent-light;
     text-decoration: none;
     font-size: .7em;
     text-transform: uppercase;
@@ -15,7 +15,7 @@
     margin: .5em;
 
     &:hover {
-        background-color: $color-accent-dark;
+        background-color: $color-accent;
         color: $color-accent-light;
     }
 

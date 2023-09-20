@@ -5,7 +5,7 @@
 
 /* BASE TEXT COLORS */
 body {
-  color: rgb(34, 42, 42);
+  color: rgba(34, 42, 42, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "beloved-script", sans-serif;
+  font-family: "handsome-pro-nib", sans-serif;
 }
 
 /* BASE TYPOGRAPHY */
@@ -81,8 +81,8 @@ hr {
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: rgb(194, 109, 129);
-  color: rgb(64, 27, 36);
+  background-color: rgb(111, 87, 84);
+  color: rgb(209, 181, 173);
   text-decoration: none;
   font-size: 0.7em;
   text-transform: uppercase;
@@ -94,8 +94,8 @@ hr {
   margin: 0.5em;
 }
 .button:hover {
-  background-color: rgb(64, 27, 36);
-  color: rgb(223, 205, 197);
+  background-color: rgb(194, 109, 129);
+  color: rgb(209, 181, 173);
 }
 
 /* RESPONSIVE IMAGES */
@@ -196,7 +196,7 @@ body {
 
 /* SITE STRUCTURE */
 .site-header {
-  background: rgb(64, 27, 36);
+  background: rgb(111, 87, 84);
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -213,7 +213,7 @@ body {
 
 /* SITE-FOOTER */
 .site-footer {
-  background: rgb(64, 27, 36);
+  background: rgb(111, 87, 84);
   display: flex;
   padding: 1em;
   justify-content: center;
@@ -243,7 +243,6 @@ section {
 /* HERO SECTION */
 .hero {
   display: flex;
-  background-color: rgb(223, 205, 197);
   text-align: left;
   padding: 10em 0;
   height: 75vh;
@@ -290,7 +289,7 @@ section {
   opacity: 0.5;
 }
 .projects:hover p {
-  color: rgb(194, 109, 129);
+  color: rgb(111, 87, 84);
   opacity: 1;
   font-weight: bold;
   font-size: 1.1em;
