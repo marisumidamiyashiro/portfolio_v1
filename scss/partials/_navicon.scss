@@ -1,0 +1,15 @@
+.navicon {
+
+    .snippet {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        border-radius: 25px;
+        border: 2px solid $color-accent;
+        min-width: 500px;
+    }
+}

@@ -278,6 +278,7 @@ section {
   border-radius: 25px;
   height: 300px;
   object-fit: cover;
+  border: 2px solid rgba(34, 42, 42, 0.8);
 }
 .projects p {
   position: absolute;
@@ -510,4 +511,16 @@ section {
 }
 .the-moon hr {
   background-color: white;
+}
+
+.navicon .snippet {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navicon img {
+  border-radius: 25px;
+  border: 2px solid rgb(194, 109, 129);
+  min-width: 500px;
 }
