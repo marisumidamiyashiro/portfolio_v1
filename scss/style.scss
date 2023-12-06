@@ -1,5 +1,7 @@
 /* GLOBAL RESETS */
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 // VARIABLES
 
@@ -9,7 +11,7 @@ $color-accent: rgb(194, 109, 129);
 $color-accent-dark: rgb(111, 87, 84);
 $color-accent-light: rgb(209, 181, 173);
 
-$color-lightgrey: rgba(0, 0 ,0, .5);
+$color-lightgrey: rgba(0, 0, 0, .5);
 
 $font-family-sans: "new-order", sans-serif;
 $font-family-serif: "handsome-pro-nib", sans-serif;

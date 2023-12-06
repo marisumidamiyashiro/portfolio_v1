@@ -1,5 +1,18 @@
 .navicon {
 
+    .hero {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .project-nav {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
     .snippet {
         margin: 0;
         padding: 0;
@@ -11,5 +24,26 @@
         border-radius: 25px;
         border: 2px solid $color-accent;
         min-width: 500px;
+    }
+}
+
+.code-results {
+
+    .buttons-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button {
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .codepen {
+        width: 500px;
     }
 }

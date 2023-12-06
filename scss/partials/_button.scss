@@ -11,7 +11,9 @@
     border-radius: 25px 0;
     text-transform: uppercase;
     width: 200px;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     margin: .5em;
 
     &:hover {
@@ -20,5 +22,3 @@
     }
 
 }
-
-

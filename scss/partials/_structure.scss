@@ -42,6 +42,7 @@
         list-style: none;
         display: flex;
     }
+
     a {
         display: inline-block;
         padding: 1em;
@@ -50,7 +51,7 @@
 }
 
 section {
-    padding: 4em 0;
+    padding: 3em 0;
 }
 
 /* HERO SECTION */
@@ -59,8 +60,9 @@ section {
     display: flex;
     text-align: left;
     padding: 10em 0;
-    height: 75vh;
-    
+    height: 80vh;
+    background-color: rgb(209, 181, 173);
+
     h1 {
         margin-bottom: .25em;
     }
@@ -72,18 +74,18 @@ section {
 }
 
 
-/* SECTION HEADING */ 
+/* SECTION HEADING */
 
 .section-heading {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: $font-family-sans;
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing: .05em;
-    border-bottom: 5px solid $color-accent;
+    letter-spacing: .5em;
+    border-bottom: 3px solid $color-accent;
     display: table;
     padding: 0 0 .5em 0;
-    margin: 1em auto 3em auto;
+    margin: 3em auto 1em auto;
 }
 
 .projects {
@@ -108,8 +110,8 @@ section {
     &:hover {
 
         img {
-        animation: blur .1s cubic-bezier(.25,.25,.25,.5) both;
-        opacity: .5;
+            animation: blur .1s cubic-bezier(.25, .25, .25, .5) both;
+            opacity: .5;
         }
 
         p {

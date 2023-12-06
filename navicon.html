@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/muz4avn.css">
 
     <!-- MAIN CSS -->
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="navicon">
@@ -27,7 +27,7 @@
             <ul>
                 <li><a href="index.html#project">work</a></li>
                 <li><a href="about.html">about</a></li>
-                
+
             </ul>
         </nav>
     </header>
@@ -37,39 +37,70 @@
             <div class="container">
                 <div class="row">
                     <div class="one-whole">
+                        <img src="img/allnavicons-screenshot.png"
+                            alt="a screenshot of all nav icons that have been worked on">
                         <h1>3-Bar Nav Icon</h1>
                         <div class="project-nav">
-                            <a href="#challengecontent" class="button">challenge & content</a>
-                            <a href="#process" class="button">process & insight</a>
-                            <a href="#solution" class="button">solution</a>
+                            <a href="#challengecontent" class="button">overview</a>
+                            <a href="#process" class="button">approach</a>
+                            <a href="#conclusion" class="button">conclusion</a>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
             </div>
         </section>
         <section id="challengecontent">
-
             <div class="container">
-                <h2 class="section-heading">Challenge & Content</h2>
-        
-                <div class="row">
-                    <div class="one-whole">
-                        <h3>Starting Off</h3>
-                        <p>The challenge was finding a way to easily create a 3-bar nav icon that could be copy and pasted into any project!</p>
+                <h2 class="section-heading">Overview</h2>
+                <div class="row align-top">
+                    <div class="project-overview push-one-fourth">
+                        <ul>
+                            <li>Client:</li>
+                            <li>Deliverable:</li>
+                            <li>Year:</li>
+                            <li>Software:</li>
+                        </ul>
+                    </div>
+                    <div class="project-overview one-half">
+                        <ul>
+                            <li>Instructor</li>
+                            <li>3 Book Covers</li>
+                            <li>2021</li>
+                            <li>Illustrator | PhotoShop | InDesign</li>
+                        </ul>
                     </div>
                 </div>
-        
-                <h2 id="process" class="section-heading">Process & Insight</h2>
+                <div class="row">
+                    <div class="one-third">
+                        <h3>The Problem</h3>
+                    </div>
+                    <div class="two-thirds">
+                        <p>Creating a 3-bar navigation icon may seem like a simple task, but there are multiple ways to
+                            implement it on your website. I opted to provide a straightforward method by offering code
+                            that you can easily copy and paste into your own projects. I utilized the details/summary
+                            HTML element to create an overlay menu without the need for JavaScript. After finishing the
+                            examples, I copied and pasted my HTML and CSS code into a mockup, then incorporated
+                            JavaScript to demonstrate how effortlessly you can add this feature to your projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="container">
+                <h2 class="section-heading">Approach</h2>
 
                 <div class="row swapped">
                     <div class="one-third">
                         <video src="img/basic-no_animation.mp4" autoplay loop muted width="300px">
                     </div>
                     <div class="two-thirds">
-                        <h3>A Basic 3-Bar Nav Icon With No Animation</h3>
-                        <p>Creating A Simple Menu Icon using detials/summary.</p>
+                        <h3>Humble Beginnings</h3>
+                        <p>I began by creating a basic menu icon without any animations, but would still effectively
+                            open and close an overlay navigation menu. This was achieved within the "summary" element
+                            using an svg.</p>
                     </div>
                     <div class="snippet one-whole">
                         <img src="img/basic-noanimation-snippet.png" alt="">
@@ -81,8 +112,11 @@
                         <video src="img/simple-animation.mp4" autoplay loop muted width="300px">
                     </div>
                     <div class="two-thirds">
-                        <h3>A Basic 3-Bar Nav Icon With Simple Animations</h3>
-                        <p>Adding a simple open and close animation to the basic 3-Bar Nav Icon</p>
+                        <h3>Simple Steps</h3>
+                        <p>After creating the base for the menu icon I needed to learn how to select each svg element
+                            for it's open and closing animations. This was done using the [open] selector. I also
+                            learned that using the "transform-origin" property would later assist with easily changing
+                            the animation keyframes.</p>
                     </div>
                     <div class="snippet one-whole">
                         <img src="img/simple-animation-snippet.png" alt="">
@@ -94,8 +128,11 @@
                         <video src="img/squish-animation.mp4" autoplay loop muted width="300px">
                     </div>
                     <div class="two-thirds">
-                        <h3>A Basic 3-Bar Nav Icon With No Animation</h3>
-                        <p>Creating A Simple Menu Icon using detials/summary.</p>
+                        <h3>Keyframes In Action</h3>
+                        <p>Building on the first two steps I felt more confident in creating keyframe animations for
+                            more eye-catching effects when clicking on the menu icon. I started with
+                            a simple "squish" animation that brought all rectangles to the center and opening into the
+                            "x" and then reversed the process, transforming the "x" back into the three bars.</p>
                     </div>
                     <div class="snippet one-half">
                         <img src="img/squish-animation-snippet.png" alt="">
@@ -105,45 +142,98 @@
                     </div>
                 </div>
 
-
-
-                <h2 id="solution" class="section-heading">Solution</h2>
-
                 <div class="row">
-
-                    <!-- <div class="one-whole">
-
-                        <h3>The Trilogy</h3>
-                        <p>A unified book trilogy had been achieved using sculpted clay figures photographed against a black background. How To Sell A Haunted House served as my base and I built the other two covers for Ian Manuel and Sanctuary around the same design concept.</p>
-
+                    <div class="one-third">
+                        <video src="img/plus-to-x.mp4" autoplay loop muted width="300px">
                     </div>
+                    <div class="two-thirds">
+                        <h3>Continuing the Journey</h3>
+                        <p>For my next attempt at keyframe animations, I incorporated a series of additional steps to
+                            create a more intricate and visually engaging effect. This involved creating a plus
+                            sign that rotates into the "x" and, again, reversed the process back into the three bars.
+                            This proved to be a much more difficult task as I needed to understand th4e timing at each
+                            percentage within the keyframe. Finding the right balance was crucial, ensuring that the
+                            rotation into the "x" was neither too quick to preserve the effect, nor too slow to maintain
+                            its visual appeal.
+                        </p>
+                    </div>
+                    <div class="snippet one-half">
+                        <img src="img/plusttox-animation-snippet.png" alt="">
+                    </div>
+                    <div class="snippet one-half">
+                        <img src="img/plusttox-keyframe-snippet.png" alt="">
+                    </div>
+                </div>
 
-                        <div class="book-covers one-whole">
-                            <img src="img/Book1_Mockup_Reedit.jpg" alt="book cover #1">
-                            <img src="img/Book2_Mockup_v1.jpg" alt="book cover #2">
-                            <img src="img/Book3_Mockup_v1.jpg" alt="book cover #3">
+                <div class="row swapped">
+                    <div class="one-third">
+                        <video src="img/separated.mp4" autoplay loop muted width="300px">
+                    </div>
+                    <div class="two-thirds">
+                        <h3>From Foundations to Flourish</h3>
+                        <p>In my final exploration for this project, I created a more involved menu icon using six
+                            rectangles within the svg. This demanded meticulous attention to detail and a considerable
+                            amount of patience. I wanted this menu icon to have the top and bottom bars tilt towards the
+                            center, forming the "x", while the center bar splits in half and fades outwards. The first
+                            few iterations of this icon did not have the transform-origin selector, so each keyframe had
+                            been different. This meant that reversing the animation had completely different translate
+                            and rotation properties. After learning that I could specify the top left and top right of
+                            each rectangle, I could easily animate the open and close animations.</p>
+                    </div>
+                    <div class="snippet one-whole">
+                        <div class="snippet one-fourth">
+                            <img src="img/separated-animation1-snippet.png" alt="">
                         </div>
-
-                </div> -->
-                    
-                <hr/>
-        
-                <div class="row align-top">
-                    <div class="one-fourth">
-                        <ul>
-                            <li><span>Client:</span></li>
-                            <li><span>Deliverable:</span></li>
-                            <li><span>Year:</span></li>
-                            <li><span>Software:</span></li>
-                        </ul>
+                        <div class="snippet one-fourth">
+                            <img src="img/separated-animation2-snippet.png" alt="">
+                        </div>
                     </div>
-                    <div class="three-fourths">
-                        <ul>
-                            <li>Instructor</li>
-                            <li>3 Book Covers</li>
-                            <li>2021</li>
-                            <li>Illustrator | PhotoShop | InDesign</li>
-                        </ul>
+                    <div class="snippet one-whole">
+                        <div class="snippet one-fourth">
+                            <img src="img/separated-keyframe1-snippet.png" alt="">
+                        </div>
+                        <div class="snippet one-fourth">
+                            <img src="img/separated-keyframe2-snippet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="conclusion">
+            <div class="container">
+                <h2 class="section-heading">Conclusion</h2>
+                <div class="row">
+                    <div class="one-third">
+                        <h3>The Finale</h3>
+                    </div>
+                    <div class="two-thirds">
+                        <p>Having completed a variety of menu icons and a range of animations, my last objective was to
+                            ensure their semaless integration into websites for potential users. To achieve this, I
+                            conducted tests with JavaScript to understand the process of copying and pasting the code
+                            used to generate the icon. I initially utilized CodePens and eventually learned to select
+                            the "open" and "closed" navigation states to assign the animations. After doing this I
+                            created a mockup of the current NMA website and implemented my menu icon. You can view all
+                            the CodePens and website mockup using the links below.</p>
+                    </div>
+                    <div class="code-results one-whole">
+                        <div class="buttons-2">
+                            <a href="https://codepen.io/collection/gYBVbN" class="button">Complete CodePen
+                                Collection</a>
+                            <a href="https://marisumidamiyashiro.github.io/nma-website-mockup-v2/" class="button">NMA
+                                Website Mockup</a>
+                            <a href="https://github.com/marisumidamiyashiro/nma-website-mockup-v2?tab=readme-ov-file"
+                                class="button">GitHub Repo for Mockup</a>
+                        </div>
+                        <p class="codepen" data-height="500" data-slug-hash="wvNQgPX" data-user="marisumidamiyashiro">
+                            <span>See the Pen <a href="https://codepen.io/marisumidamiyashiro/pen/wvNQgPX">
+                                    nma-sitenav-togglenav with details summary (all animations)</a> by Mari Sumida
+                                Miyashiro (<a href="https://codepen.io/marisumidamiyashiro">@marisumidamiyashiro</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
+                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
                 </div>
             </div>
         </section>
