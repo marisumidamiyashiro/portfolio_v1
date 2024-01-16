@@ -2,4 +2,4 @@
 
 Mari's portfolio version 2
 
-[demo](https://marisumidamiyashiro.github.io/portfolio_v2/)
+[demo](https://marisumidamiyashiro.github.io/portfolio_v1/)
